@@ -1,0 +1,38 @@
+.end{
+    padding: 20px 15%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    /* justify-content: space-between; */
+    gap: 2rem;
+    background: #080808;
+    justify-content: center;
+}
+.last-text p{
+    color: #fff;
+    font-size: 14px;
+}
+.top i{
+    font-size: 24px;
+    font-weight: 1000;
+    padding: 10px;
+    border-radius: 8px;
+    color: #fff;
+    background: #ff004f;
+}
+@media only screen and (max-width:1140px) {
+   
+} 
+@media only screen and (max-width:479px) {
+    
+}
+
+/* sejhu34 h */
+footer {
+    text-align: center;
+}
+
+
+.last-text {
+    font-size: 14px; /* Adjust the font size as needed */
+}

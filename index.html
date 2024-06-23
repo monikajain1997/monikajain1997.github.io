@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Porofolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles/nav.css">
+    <link rel="stylesheet" href="styles/home.css">
+    <link rel="stylesheet" href="styles/about.css">
+    <link rel="stylesheet" href="styles/skills.css">
+    <link rel="stylesheet" href="styles/projects.css">
+    <link rel="stylesheet" href="styles/gitStats.css">
+    <link rel="stylesheet" href="styles/contact.css">
+    <link rel="stylesheet" href="styles/footer.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css/">
+</head>
+
+<body>
+    <!---------------------NavBar-------------------->
+    <header>
+        <nav>
+            <div id="nav-menu" class="">
+                <h1  class="logo">Monika Jain</h1>
+                <ul class="nav_list_ul">
+                    <li class="nav-link home"><a href="#home">Home</a></li>
+                    <li class="nav-link about"><a href="#about">About</a></li>
+                    <li class="nav-link skills"><a href="#skills">Skills</a></li>
+                    <li class="nav-link projects"><a href="#projects">Projects</a></li>
+                    <li class="nav-link contact"><a href="#contact">Contact</a></li>
+                    <li class="nav-link resume" id="resume-button-1"><a
+                            onclick="window.open('I have to put my drive resume link here')"
+                            href="Monika-Jain-Resume.pdf" target="_blank" download="Monika-Jain-Resume"
+                            id="resume-link-1"><span><svg class="download nav-link resume"
+                                        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                        <path
+                                            d="M288 32c0-17.7-14.3-32-32-32s-32 14.3-32 32V274.7l-73.4-73.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l128 128c12.5 12.5 32.8 12.5 45.3 0l128-128c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L288 274.7V32zM64 352c-35.3 0-64 28.7-64 64v32c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V416c0-35.3-28.7-64-64-64H346.5l-45.3 45.3c-25 25-65.5 25-90.5 0L165.5 352H64zm368 56a24 24 0 1 1 0 48 24 24 0 1 1 0-48z" />
+                                    </svg></span> Resume</a></li>
+                </ul>
+                
+                <div class="hamburger">
+                    <div class="hmline"></div>
+                    <div class="hmline"></div>
+                    <div class="hmline"></div>
+                </div>
+                <div class="cross">
+                    <i class="fa-solid fa-x fa-shake fa-2xl"></i>
+                    <!-- <i class="fa-solid fa-x fa-2xl" style="color: #ffffff;"></i> -->
+                </div>
+            </div>
+        </nav>
+
+    </header>
+    <!---------------------Home---------------------->
+    <section>
+        <div>
+            <div id="container">
+                <div id="home">
+                    <div class="header-text">
+                        <h1 id="user-detail-name">Hello, I'm <br><span>Monika </span> Jain</h1>
+                        <p class="role_visible">MIS Executive / Data Analyst</p>
+                        <div class="wrapper">
+                            <!-- <div class="static-text"></div> -->
+                            <ul class="dynamic-texts">
+                                <li><span>MIS Executive / Data Analyst</span></li>
+                            </ul>
+                        </div>
+                        <button class="resume_button" id="resume-button-2"><a
+                                onclick="window.open('I have to put drive resume kink')"
+                                href="./Monika-Jain-Resume.pdf" target="_blank" download
+                                id="resume-link-2"><span><svg class="download" xmlns="http://www.w3.org/2000/svg"
+                                        viewBox="0 0 512 512">
+                                        <path
+                                            d="M288 32c0-17.7-14.3-32-32-32s-32 14.3-32 32V274.7l-73.4-73.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l128 128c12.5 12.5 32.8 12.5 45.3 0l128-128c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L288 274.7V32zM64 352c-35.3 0-64 28.7-64 64v32c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V416c0-35.3-28.7-64-64-64H346.5l-45.3 45.3c-25 25-65.5 25-90.5 0L165.5 352H64zm368 56a24 24 0 1 1 0 48 24 24 0 1 1 0-48z" />
+                                    </svg></span> Resume</a></button>
+                    </div>
+                    <div id="Profile_image"><img src="./Images/Monika_jain.png" class="home-img"></div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!---------------------About---------------------->
+    <section>
+        <div id="About_cont">
+            <div id="about" class="about section">
+                <div class="about_heading">
+                    <div class="blankLine"></div>
+                    <div>
+                        <h3>About&nbsp;Me</h3>
+                    </div>
+                    <div class="blankLine"></div>
+                </div>
+                <div>
+                    <p id="user-detail-intro"><span><svg class="quote" xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 448 512">
+                                <path
+                                    d="M0 216C0 149.7 53.7 96 120 96h8c17.7 0 32 14.3 32 32s-14.3 32-32 32h-8c-30.9 0-56 25.1-56 56v8h64c35.3 0 64 28.7 64 64v64c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V320 288 216zm256 0c0-66.3 53.7-120 120-120h8c17.7 0 32 14.3 32 32s-14.3 32-32 32h-8c-30.9 0-56 25.1-56 56v8h64c35.3 0 64 28.7 64 64v64c0 35.3-28.7 64-64 64H320c-35.3 0-64-28.7-64-64V320 288 216z" />
+                            </svg></span>I am a detail-oriented and analytical MIS Executive / Data Analyst with a strong foundation in data management, statistical analysis, and business intelligence. With a proven track record of leveraging data to drive strategic decision-making, I excel in transforming complex datasets into actionable insights. My expertise includes proficiency in Excel and data visualization tools such as Tableau and Power BI. Committed to continuous learning and problem-solving, I aim to enhance organizational efficiency and support business growth through effective data analysis.
+                        <span><svg class="quote" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                <path
+                                    d="M448 296c0 66.3-53.7 120-120 120h-8c-17.7 0-32-14.3-32-32s14.3-32 32-32h8c30.9 0 56-25.1 56-56v-8H320c-35.3 0-64-28.7-64-64V160c0-35.3 28.7-64 64-64h64c35.3 0 64 28.7 64 64v32 32 72zm-256 0c0 66.3-53.7 120-120 120H64c-17.7 0-32-14.3-32-32s14.3-32 32-32h8c30.9 0 56-25.1 56-56v-8H64c-35.3 0-64-28.7-64-64V160c0-35.3 28.7-64 64-64h64c35.3 0 64 28.7 64 64v32 32 72z" />
+                            </svg></span>
+                    </p>
+                </div>
+                <div>
+                    <ul>
+                        <li> <svg class="contact_icons" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+                                <path
+                                    d="M215.7 499.2C267 435 384 279.4 384 192C384 86 298 0 192 0S0 86 0 192c0 87.4 117 243 168.3 307.2c12.3 15.3 35.1 15.3 47.4 0zM192 128a64 64 0 1 1 0 128 64 64 0 1 1 0-128z" />
+                            </svg>Gwalior, Madhya Pradesh</li>
+                        <li id="contact-phone"><svg class="contact_icons" xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 512 512">
+                                <path
+                                    d="M164.9 24.6c-7.7-18.6-28-28.5-47.4-23.2l-88 24C12.1 30.2 0 46 0 64C0 311.4 200.6 512 448 512c18 0 33.8-12.1 38.6-29.5l24-88c5.3-19.4-4.6-39.7-23.2-47.4l-96-40c-16.3-6.8-35.2-2.1-46.3 11.6L304.7 368C234.3 334.7 177.3 277.7 144 207.3L193.3 167c13.7-11.2 18.4-30 11.6-46.3l-40-96z" />
+                            </svg>+91 8269066061</li>
+                        <li id="contact-email"><svg class="contact_icons" xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 512 512">
+                                <path
+                                    d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48H48zM0 176V384c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V176L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z" />
+                            </svg><a href="https://mail.google.com/mail/u/0/" target="_blank"
+                                style="text-decoration: none; cursor: pointer; color: #fff;">jainmonika357@gmail.com</a>
+                        </li>
+                        <li id="contact-github"><svg class="contact_icons" xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 496 512">
+                                <path
+                                    d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z" />
+                            </svg><a href="https://github.com/monikajain1997" target="_blank"
+                                style="text-decoration: none; cursor: pointer; color: #fff;">Github</a>
+                        </li>
+                        <li id="contact-linkedin"><svg class="contact_icons" xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 448 512">
+                                <path
+                                    d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z" />
+                            </svg> <a href="https://www.linkedin.com/in/monika-jain-6610871b5/" target="_blank"
+                                style="text-decoration: none; cursor: pointer; color: #fff;">Linkedin</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--------------------Skills---------------------->
+    <section>
+        <div id="skills">
+            <div class="skills_heading">
+                <div class="blankLine"></div>
+                <div>
+                    <h3>Skills</h3>
+                </div>
+                <div class="blankLine"></div>
+            </div>
+            <div id="skills_container">
+                <div id="tech_stacks">
+                    <h1>Tech Stacks</h1>
+                    <div id="tech_stack_container">
+                        <div class="skills-card">
+                            <div><img class="tech_satack_card_img skills-card-img" src="Images/power-bi.jpg"
+                                    alt=""></div>
+                            <div class="skills-card-name">Power BI</div>
+                        </div>
+                        <div class="skills-card">
+                            <div><img class="tech_satack_card_img skills-card-img" src="Images/tableau.png"
+                                    alt=""></div>
+                            <div class="skills-card-name">Tableau</div>
+                        </div>
+                        <div class="skills-card">
+                            <div><img class="tech_satack_card_img skills-card-img" src="Images/ms_excel.png"
+                                    alt=""></div>
+                            <div class="skills-card-name">Microsoft Excel</div>
+                        </div>
+                        <div class="skills-card">
+                            <div><img class="tech_satack_card_img skills-card-img"
+                                    src="Images/python.png" alt=""></div>
+                            <div class="skills-card-name">Pyhton</div>
+                        </div>
+                        <div class="skills-card">
+                            <div><img class="tech_satack_card_img skills-card-img" src="Images/techStack_mysql_logo.png"
+                                    alt=""></div>
+                            <div class="skills-card-name">MySQL</div>
+                        </div>
+                    </div>
+                </div>
+                <div id="tech_stacks">
+                    <h1>Tools</h1>
+                    <div id="tech_stack_container">
+                        <div class="skills-card">
+                            <div><img class="tech_satack_card_img skills-card-img"
+                                    src="Images/jupyter.jpg" alt=""></div>
+                            <div class="skills-card-name">Jupyter Notebook</div>
+                        </div>
+
+                        <!-- <div class="skills-card">
+                            <div><img class="tech_satack_card_img skills-card-img"
+                                    src="Images/techStack_gitHub_logo.png" alt=""></div>
+                            <div class="skills-card-name">github</div>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!--------------------Projects-------------------->
+    <section>
+        <div>
+            <div id="projects">
+                <div id="projects_heading">
+                    <div class="blankLine"></div>
+                    <div>
+                        <h3>Projects</h3>
+                    </div>
+                    <div class="blankLine"></div>
+                </div>
+                <div class="project_container">
+                    <div>
+                        <div class="row">
+                            <div class="col-md-4 col-sm-6 project-card">
+                                <div class="box">
+                                    <img src="Images/project_01.png">
+                                    <div>
+                                        <h3 class="title project-title">Bath and Body Works(clone)</h3>
+                                        <!-- <span class="post">An individual project executed in 5 days.</span> -->
+                                    </div>
+                                    <div class="project_card_details">
+                                        <div class="project_Title">
+                                            <h4 class="project-description">Bath & Body Works is an American retailer 
+                                                providing bath and beauty products, 
+                                                such as hand and body soaps, hand sanitizers etc.</h4>
+                                        </div>
+                                        <div>
+                                            <div class="project_tech_stack_cont project-tech-stack">
+                                                <span><i class="fa-brands fa-html5  fa-2xl project_tech_stacks"></i>
+                                                    <p>HTML</p>
+                                                </span>
+                                                <span><i class="fa-brands fa-css3-alt  fa-2xl project_tech_stacks"></i>
+                                                    <p>CSS</p>
+                                                </span>
+                                                <span><i class="fa-brands fa-square-js  fa-2xl project_tech_stacks"></i>
+                                                    <p>JS</p>
+                                                </span>
+                                            </div>
+                                            <div class="icon">
+                                                <div><a href="https://github.com/Lallu-123/Staking-wine-3555" target="_blank"
+                                                        class="project-github-link"><i class="fa-brands fa-github"></i></a></div>
+                                                <div><a href="https://effulgent-maamoul-16390e.netlify.app/" target="_blank"
+                                                        class="project-deployed-link"><i
+                                                            class="fa-solid fa-globe fa-shake"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <!-- project-02 -->
+                            <div class="col-md-4 col-sm-6 project-card">
+                                <div class="box">
+                                    <img src="Images/project_02.png">
+                                    <div >
+                                        <h3 class="title project-title">Yoox Women(clone)</h3>
+                                        <!-- <span class="post">A collaborative project built by a team of 5 Full Stack
+                                            developers and executed in 5 days.</span> -->
+                                    </div>
+                                    <div class="project_card_details">
+                                        <div class="project_Title">
+                                            <h4 class="project-description">Yoox Women is the world's leading online lifestyle store for fashion, design
+                                                & art.</h4>
+                                        </div>
+                                        <div>
+                                            <div class="project_tech_stack_cont project-tech-stack">
+                                                <span><i class="fa-brands fa-html5  fa-2xl project_tech_stacks"></i>
+                                                    <p>HTML</p>
+                                                </span>
+                                                <span><i class="fa-brands fa-css3-alt  fa-2xl project_tech_stacks"></i>
+                                                    <p>CSS</p>
+                                                </span>
+                                                <span><i class="fa-brands fa-square-js  fa-2xl project_tech_stacks"></i>
+                                                    <p>JS</p>
+                                                </span>
+                                            </div>
+                                            <div class="icon">
+                                                <div><a href="https://github.com/alokrai0607/-embarrassed-pig-3561" target="_blank"
+                                                        class="project-github-link"><i class="fa-brands fa-github"></i></a></div>
+                                                <div><a href="https://sparkling-macaron-85cc95.netlify.app/" target="_blank"
+                                                        class="project-deployed-link"><i
+                                                            class="fa-solid fa-globe fa-shake"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div class="row">
+                            <!-- project-03 -->
+                            <div class="col-md-4 col-sm-6 project-card">
+                                <div class="box">
+                                    <img src="Images/project_03.png">
+                                    <div >
+                                        <h3 class="title project-title">Student Registration System</h3>
+                                        <!-- <span class="post">An individual project executed in 5 days.</span> -->
+                                    </div>
+                                    <div class="project_card_details">
+                                        <div class="project_Title">
+                                            <h4 class="project-description">Student Registration System is used to monitor the course in a organization, helps system administrators monitor their infrastructure.</h4>
+                                        </div>
+                                        <div>
+                                            <div class="project_tech_stack_cont project-tech-stack">
+                                                <span><i class="fa-brands fa-java  fa-2xl project_tech_stacks"></i></i>
+                                                    <p>JAVA</p>
+                                                </span>
+                                                <span><i
+                                                        class="fa-solid fa-database  fa-2xl project_tech_stacks"></i></i>
+                                                    <p>MySQL</p>
+                                                </span>
+                                                <span><i class="fa-solid fa-plug  fa-2xl project_tech_stacks"></i></i>
+                                                    <p>JDBC</p>
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <div class="icon">
+                                            <div><a href="https://github.com/Lallu-123/moral-riddle-2098/tree/master" target="_blank"
+                                                    class="project-github-link"><i class="fa-brands fa-github"></i></a></div>
+                                            <div><a href="" target="_blank"
+                                                    class="project-deployed-link"><i
+                                                        class="fa-solid fa-globe fa-shake"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div>
+                                <div class="row">
+                                    <!-- project-04 -->
+                
+                                    <div class="col-md-4 col-sm-6 project-card">
+                                        <div class="box">
+                                            <img src="Images/Project_04.png">
+                                            <div >
+                                                <h3 class="title project-title">Online Trip Management System</h3>
+                                            </div>
+                                            <div class="project_card_details">
+                                                <div class="project_Title">
+                                                    <h4 class="project-description">The Online Trip Management System is a web application that aims to provide a convenient platform for managing tours and travels.</h4>
+                                                </div>
+                                                <div>
+                                                    <div class="project_tech_stack_cont project-tech-stack">
+                                                        <span><i class="fa-brands fa-html5  fa-2xl project_tech_stacks"></i>
+                                                            <p>HTML</p>
+                                                        </span>
+                                                        <span><i class="fa-brands fa-css3-alt  fa-2xl project_tech_stacks"></i>
+                                                            <p>CSS</p>
+                                                        </span>
+                                                        <span><i class="fa-brands fa-square-js  fa-2xl project_tech_stacks"></i>
+                                                            <p>JS</p>
+                                                        </span>
+                                                        <span><i class="fa-brands fa-java  fa-2xl project_tech_stacks"></i></i>
+                                                            <p>JAVA</p>
+                                                        </span>
+                                                        <span><i
+                                                                class="fa-solid fa-database  fa-2xl project_tech_stacks"></i></i>
+                                                            <p>MySQL</p>
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                                <div class="icon">
+                                                    <div><a href="https://github.com/developerrajthakur22/efficient-veil-6767" target="_blank"
+                                                            class="project-github-link"><i class="fa-brands fa-github"></i></a></div>
+                                                            <div><a href="https://64bd8eb175db485932ed5849--sunny-pie-ae061c.netlify.app/index.html" target="_blank"
+                                                                class="project-deployed-link"><i
+                                                                    class="fa-solid fa-globe fa-shake"></i></a>
+                                                        </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                           
+                </div>
+            </div>
+        </div>
+    </section>
+    <!---------------------Stats--------------------->
+    <!-- <section>
+        <div id="git-stats">
+            <div id="stats_heading">
+                <div class="blankLine"></div>
+                <div>
+                    <h3>Stats</h3>
+                </div>
+                <div class="blankLine"></div>
+            </div>
+            <div class="stats_card">
+                <img id="github-top-langs"
+                    src="https://github-readme-stats.vercel.app/api/top-langs/?username=Lallu-123&theme=radical&layout=compact&langs_count=10&title_color=#ff004f&text_color=ffffff&icon_color=ffffff&bg_color=#080808&hide_border=true&locale=en"
+                    alt="">
+            </div>
+            <div id="top_row">
+                <div class="stats_card">
+                    <img id="github-streak-stats"
+                        src="https://github-readme-streak-stats.herokuapp.com/?user=Lallu-123&theme=radical&type=png"
+                        alt="">
+                </div>
+                <div class="stats_card">
+                    <img id="github-stats-card"
+                        src="https://github-readme-stats.vercel.app/api?username=Lallu-123&show_icons=true&theme=radical"
+                        alt="">
+                </div>
+            </div>
+
+            <div id="git-stats-calender" class="stats_card react-activity-calendar">
+                <img src="https://ghchart.rshah.org/Lallu-123"
+                    alt=" Github chart" />
+            </div>
+        </div>
+    </section> -->
+    <!--------------------Contact---------------------->
+    <div id="contact" class="contact-container">
+        <div id="Contact" class="contact-content">
+            <h1 class="contact-title">GET IN TOUCH</h1>
+            <h2 class="contact-subtitle">Contact Me!</h2>
+            <div class="divider"></div>
+            <div class="contact-details">
+                <p>Hello!</p>
+                <p>If you'd like to know more about my work, feel free to get in touch using your preferred medium.</p>
+                <button id="contact-phone" class="contact-button"><span class="icon"><i class="fas fa-phone"></i></span>+91-8269066061</button>
+                <button id="contact-email" class="contact-button"><span class="icon"><i class="fas fa-envelope"></i></span>jainmonika357@gmail.com</button>
+                <button id="contact-location" class="contact-button"><span class="icon"><i class="fas fa-map-marker-alt"></i></span>Gwalior, Madhya Pradesh, India</button>
+            </div>
+            <div class="social-icons">
+                <a id="contact-linkedin" href="https://www.linkedin.com/in/monika-jain-6610871b5/" target="_blank" class="icon-link"><i class="fab fa-linkedin"></i></a>
+                <a id="contact-github" href="https://github.com/monikajain1997" target="_blank" class="icon-link"><i class="fab fa-github"></i></a>
+                <a id="contact-email-link" href="mailto:jainmonika357@gmail.com" class="icon-link"><i class="fas fa-envelope"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <!-----------footer------------->
+    <footer>
+        <section class="end">
+            <div class="last-text">
+                <p>Copyright © 2024 by Monika AllRights Reserved. </p>
+            </div>
+        </section>
+    </footer>
+</body>
+<script src="scripts/mobile_menu.js"></script>
+
+</html>
